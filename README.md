@@ -8,4 +8,4 @@ Variations of flashcards using React.js
 
 ## Flashcards
 - [JSON: I love you](https://github.com/jonfernq/React-Flashcards/blob/main/iloveyou.json): The phrase 'I love you' and variants in different languages. 
-- [CSV: I love you](https://github.com/jonfernq/React-Flashcards/blob/main/json2csv.py)
+- [CSV: I love you](https://github.com/jonfernq/React-Flashcards/blob/main/iloveyou.csv)
