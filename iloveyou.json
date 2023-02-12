@@ -1,0 +1,39 @@
+{
+  "title": "Multi-Language Flashcards",
+  "French": [
+    { "front": "I love you", "back": "Je vous aime", "rating": null },
+    { "front": "I love you so much", "back": "Je t'aime tellement", "rating": null },
+    { "front": "I love you too", "back": "Je t'aime davantage", "rating": null },
+    { "front": "I love you more", "back": "Je t'aime trop", "rating": null }
+  ],
+  "Japanese": [
+    { "front": "私はあなたが好きです", "back": "I love you", "rating": null },
+    { "front": "私はあなたがとても好きです", "back": "I love you so much", "rating": null },
+    { "front": "私もあなたが好きです", "back": "I love you too", "rating": null },
+    { "front": "私はあなたがもっと好きです", "back": "I love you more", "rating": null }
+  ],
+  "Chinese Pinyin": [
+    { "front": "Wǒ ài nǐ", "back": "I love you", "rating": null },
+    { "front": "Wǒ fēi cháng ài nǐ", "back": "I love you so much", "rating": null },
+    { "front": "Wǒ yě ài nǐ", "back": "I love you too", "rating": null },
+    { "front": "Wǒ ài nǐ gèng duō", "back": "I love you more", "rating": null }
+  ],
+  "German": [
+    { "front": "Ich liebe dich", "back": "I love you", "rating": null },
+    { "front": "Ich liebe dich sehr", "back": "I love you so much", "rating": null },
+    { "front": "Ich liebe dich auch", "back": "I love you too", "rating": null },
+    { "front": "Ich liebe dich mehr", "back": "I love you more", "rating": null }
+  ],
+  "Navaho": [
+    { "front": "Ayóó ánííníshní", "back": "I love you", "rating": null },
+    { "front": "Ayóó ánííníshní dóó nizhónígo", "back": "I love you so much", "rating": null },
+    { "front": "Dóó ánííníshní nízhónígo", "back": "I love you too", "rating": null },
+    { "front": "Ayóó ánííníshní báshíshchíí", "back": "I love you more", "rating": null }
+  ],
+  "Basque": [
+    { "front": "Maite zaitut", "back": "I love you", "rating": null },
+    { "front": "Oso maite zaitut", "back": "I love you so much", "rating": null },
+    { "front": "Ni maite zaitut", "back": "I love you too", "rating": null },
+    { "front": "Maite gehiago zaitut", "back": "I love you more", "rating": null }
+  ]
+}   
