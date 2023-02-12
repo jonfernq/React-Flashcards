@@ -14,7 +14,7 @@ and a 'next' button is located at the bottom of the component.
 
 ### Source Files
 
-- [Inex.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardSlideshow/index.js)
+- [Index.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardSlideshow/index.js)
 - [FlashcardSlideshow.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardSlideshow/FlashcardSlideshow.js)
 
 ### Run in Online IDE
