@@ -1,4 +1,4 @@
-# Flashcard Slideshow
+## Flashcard Slideshow
 
 A react.js component that iterates through a deck of flashcards in a similar fashion to a slide show. 
 
