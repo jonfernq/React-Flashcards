@@ -73,3 +73,43 @@ Finally, it creates the main component of the application, the App function comp
 #### DisplayFlashcards.js 
 
 
+```
+import React from 'react';
+
+const DisplayFlashcards = (props) => {
+  const { flashcards } = props;
+
+  return (
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Language</th>
+          <th>Front</th>
+          <th>Back</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        {flashcards.map((flashcard, index) => (
+          <tr key={index}>
+            <td>{flashcard.Language}</td>
+            <td>{flashcard.Front}</td>
+            <td>{flashcard.Back}</td>
+            <td>{flashcard.Rating}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+};
+```
+
+This is a React component file named "DisplayFlashcards". The component takes in an array of flashcards as a prop and displays them in an HTML table. The component starts by destructuring the flashcards from the props.
+
+Then, it returns a table with a header row and a body row for each flashcard in the array. The header row displays the titles for the four columns: "Language", "Front", "Back", and "Rating". The body row displays the information for each flashcard in the array. The table is created by mapping over the flashcards array and for each flashcard, it creates a new table row with the information from that flashcard. The key for each row is set to the index of the flashcard in the array.
+
+Finally, the component is exported so that it can be used in other parts of the application.
+
+
+
+
