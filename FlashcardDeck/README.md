@@ -30,7 +30,7 @@ displaying the front screen.
 
 ### Source Files
 
-- []()
+- [index.html](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/index.html)
 - [index.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/index.js)
 - [App.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/App.js)
 - [FlashcardDeck.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/FlashcardDeck.js)
