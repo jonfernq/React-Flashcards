@@ -3,6 +3,7 @@
 
 ### Source Files
 
+- [index.html](https://github.com/jonfernq/React-Flashcards/blob/main/DisplayFlashcards/index.html)
 - [index.js](https://github.com/jonfernq/React-Flashcards/blob/main/DisplayFlashcards/index.js)
 - [App.js](https://github.com/jonfernq/React-Flashcards/blob/main/DisplayFlashcards/App.js)
 - [DisplayFlashcards.js](https://github.com/jonfernq/React-Flashcards/blob/main/DisplayFlashcards/DisplayFlashcards.js)
