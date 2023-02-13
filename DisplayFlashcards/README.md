@@ -39,3 +39,37 @@ This code file sets up the connection between the React JavaScript library and t
 The ReactDOM.render() function is then called, which takes two arguments: the first argument is the App component, and the second argument is the HTML element in the document that the app should be rendered into (in this case, an element with an id of "root").
 
 This code sets up the connection between your React app and the HTML document, so that your app's UI can be displayed in the web browser.
+
+
+#### App.js
+
+```
+import React from "react";
+import DisplayFlashcards from "./DisplayFlashcards";
+import "./style.css";
+
+const flashcards = [
+  { Language: "French", Front: "I love you", Back: "Je vous aime", Rating: "" },
+  { Language: "French", Front: "I love you so much", Back: "Je t'aime tellement", Rating: "" },
+  { Language: "French", Front: "I love you too", Back: "Je t'aime davantage", Rating: "" },
+  { Language: "French", Front: "I love you more", Back: "Je t'aime trop", Rating: "" }
+];
+
+export default function App() {
+  return (
+    <div>
+      <DisplayFlashcards flashcards={flashcards} />
+    </div>
+  );
+}
+```
+
+This code file sets up the main component for a React.js application. It starts by importing the necessary libraries and dependencies, including the React library, a custom component called "DisplayFlashcards", and a stylesheet called "style.css".
+
+Next, it defines an array of flashcards data, which includes information about the language, the front of the card, the back of the card, and a rating.
+
+Finally, it creates the main component of the application, the App function component, which returns the JSX code to render on the page. It displays the flashcards by calling the custom component "DisplayFlashcards" and passing the flashcard data as a prop. The App component is exported as the default export so it can be imported and used in other parts of the application.
+
+#### DisplayFlashcards.js 
+
+
