@@ -24,3 +24,17 @@ The flow of control in a React application typically starts with the index.js fi
 So in summary, the index.js file sets up the rendering of the application, the App.js file defines the root component of the application, and the DisplayFlashcards.js file defines a component used within the root component to display the flashcards.
 
 
+#### index.js
+
+```
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+```
+This code file sets up the connection between the React JavaScript library and the HTML document in which your app will be rendered. The code imports the React library, the React DOM library (which is used to render React components on the web), and the App component (which contains your app's UI).
+
+The ReactDOM.render() function is then called, which takes two arguments: the first argument is the App component, and the second argument is the HTML element in the document that the app should be rendered into (in this case, an element with an id of "root").
+
+This code sets up the connection between your React app and the HTML document, so that your app's UI can be displayed in the web browser.
