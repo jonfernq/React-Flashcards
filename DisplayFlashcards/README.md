@@ -110,6 +110,28 @@ Then, it returns a table with a header row and a body row for each flashcard in 
 
 Finally, the component is exported so that it can be used in other parts of the application.
 
+#### index.html
 
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Display Flashcards</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
+```
+
+This code file is a basic HTML file. It sets the character encoding to UTF-8, sets the title of the web page to "Display Flashcards," and includes three script files. The first two script files, "react.development.js" and "react-dom.development.js," are from the React library and are imported from a package manager called "unpkg." The third script file, "./index.js," is a local file in the same directory as this HTML file.
+
+The body of the HTML file includes a single <div> with the id attribute set to "root." This <div> element will be used as the container for the React components that are defined in the imported JavaScript files.
+
+Note: This is for running on one's own computer. Stackblitz only shows this part: `<div id="root"></div>`
 
 
