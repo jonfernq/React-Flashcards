@@ -23,3 +23,17 @@
 - Run in [Stackblitz](https://stackblitz.com/edit/react-l7dtby).
 
 ### Code Explanation in Plain English
+
+This is a React component that displays a multiple-choice quiz. The quiz takes a list of questions as a prop.
+
+The component uses the useState hook to keep track of the answers selected by the user (selectedAnswers) and whether the quiz has been submitted (isSubmitted). When the user selects an answer, the handleAnswerChange function is called and updates the selectedAnswers state with the new answer.
+
+When the user clicks the "Submit" button, the handleSubmit function is called and updates the isSubmitted state to true.
+
+The correctQuiz function maps through the list of questions and generates a set of radio buttons for each question. It also highlights the selected answer in green if it's correct, or red if it's incorrect.
+
+When the quiz has been submitted, the calculateScore function is called to calculate the user's score. It loops through the list of questions and checks whether the user's selected answer matches the correct answer. The number of correct answers is then divided by the total number of questions and multiplied by 100 to get the percentage score.
+
+Finally, the component returns either the quiz (if it hasn't been submitted yet) or the quiz result (if it has been submitted). The quiz result displays the correct quiz and the percentage score, along with the number of correct answers out of the total number of questions.
+
+The PropTypes module is used to specify the expected shape of the questions prop, which is an array of objects representing each question. Each question object is expected to have a question string, an options object with four string properties (A, B, C, and D), and an answer string representing the correct answer.
