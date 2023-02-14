@@ -4,18 +4,12 @@
 - Takes a series of multiple choice questions in JSON format which includes the correct answer.
 - Enters them into a test array.
 - Writes them out to a web page with spacing between each question.
-- Each question consists of:
--- A numbered question
--- 4 checkbox answers identified by a letter
+- Each question consists of: a. a numbered question, b. 4 checkbox answers identified by a letter
 - At the end there is a submit button, 
 - When the submit button is pressed, user answers are entered into the test array.
 - Then checked against the correct answers.
 - Incorrect answers are highlighted in red color on the page.
-- A summary at the bottom gives the percentage of correct answers: 
--- "88%: 7 out of 8 answers correct," and exit button is displayed as well. 
-
-
-
+- A summary at the bottom gives the percentage of correct answers: "88%: 7 out of 8 answers correct"
 
 ### Source Files
 
