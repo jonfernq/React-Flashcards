@@ -33,14 +33,14 @@ displaying the front screen.
 - [index.html](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/index.html)
 - [index.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/index.js)
 - [App.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/App.js)
-- [FlashcardDeck.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/FlashcardDeck.js
+- [FlashcardDeck.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/FlashcardDeck.js)
 
 - [FlashcardDeckCSS.js](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/FlashcardDeckCSS.js) (with CSS) 
 - [style.css](https://github.com/jonfernq/React-Flashcards/blob/main/FlashcardDeck/style.css) 
 
 ### Run in Online IDE
 
-Run in [Stackblitz](https://stackblitz.com/edit/react-qogbhk?file=src%2Findex.js,src%2FApp.js,src%2FFlashcardDeck.js) (without CSS).
-Run in [Stackblitz](https://stackblitz.com/edit/react-kxljoa) (with CSS).
+- Run in [Stackblitz](https://stackblitz.com/edit/react-qogbhk?file=src%2Findex.js,src%2FApp.js,src%2FFlashcardDeck.js) (without CSS).
+- Run in [Stackblitz](https://stackblitz.com/edit/react-kxljoa) (with CSS).
 
 ### Code Explanation in Plain English
