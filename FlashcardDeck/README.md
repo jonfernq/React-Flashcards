@@ -44,3 +44,12 @@ displaying the front screen.
 - Run in [Stackblitz](https://stackblitz.com/edit/react-kxljoa) (with CSS).
 
 ### Code Explanation in Plain English
+
+The React component implements a flashcard deck containing two components: Flashcard and FlashcardDeck.
+
+The Flashcard component takes in three properties: flashcard, showFront, and two functions onNext and onRating. Based on the value of showFront, it returns one of two flashcards, either the front or back of a flashcard, each with different text and buttons.
+
+The FlashcardDeck component takes in a deck of flashcards and uses two state variables: currentIndex and showFront. It uses these state variables to control the currently displayed flashcard and whether the front or back of the flashcard is displayed. The component also implements two functions, handleNext and handleRating, to control changes to the state variables. The handleNext function sets showFront to false and the handleRating function updates the rating of the current flashcard and sets showFront back to true. The component then renders the Flashcard component, passing in the currently selected flashcard, the value of showFront, and the onNext and onRating functions.
+
+The code exports the FlashcardDeck component, making it available for use in other parts of the application.
+
