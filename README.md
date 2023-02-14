@@ -5,6 +5,8 @@ Variations of flashcards using React.js
 
 - [Flashcard Display](https://github.com/jonfernq/React-Flashcards/tree/main/DisplayFlashcards): Display flashcards in a simple HTML table. 
 
+- [Flashcard Deck](https://github.com/jonfernq/React-Flashcards/tree/main/FlashcardDeck): Deck of flashcards with rating of each flashcard for mastery. 
+
 ## Support
 - [JSON flashcards to CSV](https://github.com/jonfernq/React-Flashcards/blob/main/json2csv.py) - Convert flashcards in JSON format to CSV format.   
 
